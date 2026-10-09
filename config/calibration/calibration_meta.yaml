@@ -1,0 +1,6 @@
+# R2G Jog 가 읽는 값만 남긴 예시 — 자기 팀 펜던트 설정으로 바꿀 것.
+# 시작할 때·'다시 확인' 때 펜던트의 TCP·툴 무게 이름이 아래와 같은지 보고, 다르면 이동 버튼을 막는다.
+tcp:
+  name_on_pendant: GripperDA_v1          # 펜던트 TCP 이름 (예시: 9기 ready2go 팀 값)
+  tool_weight_on_pendant:
+    name: tool_weight                    # 펜던트 툴(무게) 이름 (예시)
