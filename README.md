@@ -30,6 +30,11 @@ git clone https://github.com/aszx4880-star/r2g-jog.git && cd r2g-jog
 ```
 `config/` 는 이 폴더 안 것을 자동으로 찾습니다. 다른 곳이면 `--config-dir <경로>` 또는 환경변수 `READY2GO_CONFIG_DIR`.
 
+매번 치기 귀찮으면 `~/.bashrc` 에 alias 한 줄 (clone 위치·IP·source 경로는 자기 것으로):
+```bash
+alias r2gjog='source /opt/ros/jazzy/setup.bash && source <두산 드라이버 워크스페이스>/install/setup.bash && ~/r2g-jog/run.sh --rg2-ip 192.168.1.1'
+```
+
 ## 화면
 - **위**: 툴 상태 띠 · 툴 힘(reset 시점 대비 변화, 화면 표시만) · 꾹 누르기 속도(2–20 %) · posx/posj 지금 값(copy = 그 줄 복사, 둘 다 copy = posx·posj 두 줄 한 번에)
 - **관절 이동 / 직선 이동(base_link 기준)**: −/+ 는 로봇의 *지금* 위치에서 증분만큼. 꾹 누르면 연속 조그(손 떼면 정지, 최대 5초).
