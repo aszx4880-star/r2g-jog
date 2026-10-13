@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/jog_gui.png" alt="R2G Jog 창" width="843"></p>
+
 # R2G Jog — 두산 M0609 + OnRobot RG2 조그·교시 창
 
 9기 ready2go 팀(@9기_SDG)이 실물 로봇 교시·측정용으로 쓰는 Tkinter 조그 창입니다.
